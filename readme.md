@@ -20,3 +20,7 @@ for api documentation, use these docs as an example to create your queries [Posc
 Podchaser doesn't limit usage by individual requests, but it limits usage by fields pulled in your queries. Please see their documentation on how you will be billed [Podchase rate limits](https://api-docs.podchaser.com/docs/rate-limits)
 
 you have a limit of 25,000 points on their free tier, this means you can pull 25,000 individual fields from their api, their documentation explains this in more detail. 
+
+# Debugging
+
+I have added a vs code launch.json file for easy debugging using vs code. You can find this in ./vscode/launch.json location.
